@@ -1,0 +1,27 @@
+.address__item {
+  margin-bottom: 9px;
+    
+&:last-child {
+  margin-bottom: 0px;
+  }
+}
+
+.address__link {
+    display: block;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--easy-go);
+  
+  & span {
+    color: var(--white-text-color);
+  }
+  
+  &:hover,
+  &:focus {
+    color: var(--accent-text-color);
+  }
+}

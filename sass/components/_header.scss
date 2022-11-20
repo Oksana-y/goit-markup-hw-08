@@ -1,0 +1,24 @@
+.header {
+  border-bottom: 1px solid var(--borde-line-color);
+
+&__container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+ 
+}
+}
+
+.header__logo {
+  padding: 25px 92px 25px 0;
+ 
+  @media screen and (min-width: 767px) {
+    display: inline-block;
+    padding: 25px 87px 25px 0;
+    }
+
+& span {
+  color: #000000;
+}
+}
