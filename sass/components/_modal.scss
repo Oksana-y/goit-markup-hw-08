@@ -34,6 +34,12 @@
   border-radius: 4px;
   transition: transform var(--easy-go), opacity var(--easy-go), visibility var(--easy-go);
 
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    display: none;
+    width: 450px;
+    height: 609px;
+   }
+
 &__close-btn {
   display: flex;
   align-items: center;
