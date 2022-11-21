@@ -1,7 +1,6 @@
 
 .mobile-menu {
     display: block;
-    margin-bottom: 302px;
 
 }
 
@@ -67,23 +66,26 @@ color: #757575;
 }
  
 .menu-toggle {
-        min-height: 40px;
-        min-width: 40px;
-        display: flexbox;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-        background-color: transparent;
-        cursor: pointer;
-        border: none;
-        border-radius: 50%;
-        outline: none;
+    min-height: 40px;
+    min-width: 40px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+}
 
-        @media screen and (min-width: 768px) {
-            display: none;
-        }
-     }
+        
+     
                       
      .menu-toggle.js-close-menu:hover,
      .menu-toggle.js-close-menu:focus {
@@ -100,16 +102,25 @@ color: #757575;
     .menu-container {
         position: fixed;
         top: 0;
+        display: flex;
         left: 0;
         width: 100vw;
         height: 100vh;
         padding: 48px 40px;
         background-color: var(--main-background-color);
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+        -webkit-box-shadow: 0px 4px 8px rgba(0,0,0,.04),0px 2px 4px rgba(0,0,0,.08),0px 1px 3px rgba(0,0,0,.16);
+        box-shadow: 0px 4px 8px rgba(0,0,0,.04),0px 2px 4px rgba(0,0,0,.08),0px 1px 3px rgba(0,0,0,.16);
         z-index: 999;
+        -webkit-transform: translateX(100%);
         transform: translateX(100%);
+        -webkit-transition: -webkit-transform var(--easy-go);
+        transition: -webkit-transform var(--easy-go);
         transition: transform var(--easy-go);
+        transition: transform var(--easy-go), -webkit-transform var(--easy-go);
         overflow: auto;
+        justify-content: space-between;
+        flex-direction: column;
+    
 
         @media screen and (min-width: 768px) {
             display: none;
