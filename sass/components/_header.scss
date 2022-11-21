@@ -4,18 +4,25 @@
 &__container {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
-  
- 
-}
+
+  @media screen and (max-width: 767px)  {
+  justify-content: space-between;
+
+  }
+ }
 }
 
 .header__logo {
   padding: 25px 92px 25px 0;
  
-  @media screen and (min-width: 767px) {
-    display: inline-block;
-    padding: 25px 87px 25px 0;
+  @media screen and (min-width: 767px) and (max-width: 1199px) {
+    padding: 26px 87px 26px 0;
+    }
+
+    @media screen and (max-width: 767px)  {
+      padding: 16px 0;
     }
 
 & span {

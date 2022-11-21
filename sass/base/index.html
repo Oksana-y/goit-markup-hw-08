@@ -15,8 +15,8 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="container header__container">
+  <header class="header hidden">
+    <div class="container header__container hidden">
        <!-- Назва компанії.Перехід на головну сторінку сайту -->
       <a href="./index.html" class="logo header__logo">Web<span>Studio</span></a>
       <!-- Перехід на інші сторінки сайту -->
@@ -71,7 +71,7 @@
   <!-- Унікальний контент сторінки -->
   <main>
     <!-- Банер-->
-    <section class="section section-banner">
+    <section class="section section-banner hidden">
       <div class="container">
         <h1 class="section-banner__title">
           Ефективні рішення для <br />
@@ -83,7 +83,7 @@
     </section>
 
     <!--Переваги.Заголовок не відображається -->
-    <section class="section advantage">
+    <section class="section advantage hidden">
       <div class="container">
         <h2 class="visually-hidden">Переваги</h2>
         <ul class="advantage-list">
@@ -131,8 +131,8 @@
       </div>
     </section>
     <!--Сфера діяльності-->
-    <section class="section workspace">
-      <div class="container">
+    <section class="section workspace hidden">
+      <div class="container hidden">
         <h2 class="text-title">Чим ми займаємося</h2>
         <ul class="workspace__list">
           <li class="workspace__item">
@@ -343,7 +343,7 @@
     </section>
 
     <!-- Логотипи компаній постійних клієнтів -->
-    <section class="section clients">
+    <section class="section clients hidden">
       <div class="container">
         <h2 class="text-title">Постійні клієнти</h2>
         <ul class="list-clients">
@@ -474,11 +474,11 @@
   </div>
 
   <!-- Контакти -->
-  
-  <footer class="footer">
+  <div class="hidden">
+  <footer class="footer hidden">
    
-    <div class="container container-footer">
-      <div class="footer__box">
+    <div class="container container-footer hidden">
+      <div class="footer__box hidden">
         <a href="./index.html" class="logo footer__logo">Web<span class="white">Studio</span></a>
         <address class="address">
           <ul class="address__list">
@@ -496,7 +496,7 @@
           </ul>
         </address>
       </div>
-      <div class="footer__box-social">
+      <div class="footer__box-social hidden">
         <h4 class="action-text">приєднуйтесь</h4>
         <!-- Посилання на соціальні мережи -->
         <ul class="social footer__social">
@@ -532,7 +532,7 @@
       </div>
       <!-- Форма для підпису на розсилку -->
      
-      <div class="subscribe footer__subscribe">
+      <div class="subscribe footer__subscribe hidden">
         <h4 class="action-text">Підпишіться на розсилку</h4>
         <form action="#" class="subscribe__form" name="subscribe">
           <label for="user_mail" class="visually-hidden">Підпишись</label>
@@ -545,7 +545,7 @@
         </form>
       </div>
     </div>
-  
+  </div>
   </footer>
 <!-- </div> -->
   <script src="./js/modal.js"></script>

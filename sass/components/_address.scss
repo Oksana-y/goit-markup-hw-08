@@ -1,5 +1,9 @@
 .address__item {
   margin-bottom: 9px;
+
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    margin-bottom: 8px;
+   }
     
 &:last-child {
   margin-bottom: 0px;
@@ -15,6 +19,10 @@
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--easy-go);
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+      text-align: center;;
+     } 
   
   & span {
     color: var(--white-text-color);
@@ -24,4 +32,11 @@
   &:focus {
     color: var(--accent-text-color);
   }
+}
+
+.address {
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+   }
 }

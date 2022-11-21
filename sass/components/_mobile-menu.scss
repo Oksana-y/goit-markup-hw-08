@@ -1,0 +1,113 @@
+
+.mobile-menu {
+    display: block;
+    margin-bottom: 302px;
+
+}
+
+.mobile-menu__link {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #212121;
+
+    &__link:hover, 
+    &__link:focus {
+    color: var(--accent-text-color);
+    }
+}
+
+.mobile-contact {
+    margin-bottom: 64px;
+    display: block;
+
+&__link {
+display: inline-block;
+margin-bottom: 32px;
+font-weight: 500;   
+font-size: 24px;
+line-height: 1.17;
+color: #757575;
+}
+&__link:hover,
+&__link:focus {
+    font-size: 34px;
+    line-height: 1.18;
+    color: #2196F3;
+    }
+}
+
+.mobile-social {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+&__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    color: var(--accent-text-color);
+    }
+}
+  
+ 
+
+.menu-toggle {
+        min-height: 40px;
+        min-width: 40px;
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+     }
+                      
+     .menu-toggle:hover,
+     .menu-toggle:focus {
+        fill: var(--accent-text-color);
+     }
+        
+      
+    .menu-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        padding: 48px 40px;
+        background-color: var(--main-background-color);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+        z-index: 999;
+        transform: translateX(100%);
+        transition: transform var(--easy-go);
+        overflow: auto;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+         .menu-container.is-open {
+        transform: translateX(0);
+      }
+              
+    //   .menu-container {
+        
+    //     width: 480px;
+    //     height: 796px;
+    // }
+      
+
+
