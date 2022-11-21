@@ -1382,9 +1382,9 @@ textarea:focus {
   }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-  fill: var(--accent-text-color);
+.menu-toggle.js-close-menu:hover,
+.menu-toggle.js-close-menu:focus {
+  color: var(--accent-text-color);
 }
 
 .menu-container {

@@ -22,7 +22,7 @@
     }
    
 
-    
+
 .mobile-contact {
     margin-bottom: 64px;
     display: block;
@@ -82,9 +82,9 @@ color: #757575;
         }
      }
                       
-     .menu-toggle:hover,
-     .menu-toggle:focus {
-        fill: var(--accent-text-color);
+     .menu-toggle.js-close-menu:hover,
+     .menu-toggle.js-close-menu:focus {
+        color: var(--accent-text-color);
      }
         
       
