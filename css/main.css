@@ -216,6 +216,12 @@ p {
   -webkit-transition: color var(--easy-go);
   transition: color var(--easy-go);
 }
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .contact__link {
+    font-size: 12px;
+    line-height: 1, 17;
+  }
+}
 .contact__link:hover, .contact__link:focus {
   color: var(--accent-text-color);
 }
