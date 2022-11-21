@@ -1315,7 +1315,9 @@ textarea:focus {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.mobile-menu__link__link:hover, .mobile-menu__link__link:focus {
+
+.mobile-menu__link:hover,
+.mobile-menu__link:focus {
   color: var(--accent-text-color);
 }
 

@@ -13,14 +13,16 @@
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #212121;}
+    
 
-    &__link:hover, 
-    &__link:focus {
+    .mobile-menu__link:hover, 
+    .mobile-menu__link:focus {
     color: var(--accent-text-color);
     }
-}
+   
 
+    
 .mobile-contact {
     margin-bottom: 64px;
     display: block;
