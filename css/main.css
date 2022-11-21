@@ -775,7 +775,6 @@ p {
 }
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
-    display: none;
     width: 450px;
     height: 609px;
   }
