@@ -135,7 +135,7 @@ p {
       -ms-flex-pack: center;
           justify-content: center;
   left: 0;
-  bottom: -1px;
+  bottom: -3px;
   width: 0%;
   height: 4px;
   background-color: #2196f3;
@@ -186,6 +186,12 @@ p {
     display: inline-block;
     margin: 0 auto;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .contact__item:last-child {
+    margin-bottom: 0px;
   }
 }
 
@@ -369,7 +375,7 @@ p {
 @media screen and (max-width: 1199px) {
   .section-banner__title {
     font-size: 26px;
-    line-height: 1.62px;
+    line-height: 1.62;
   }
 }
 .section-banner__button {

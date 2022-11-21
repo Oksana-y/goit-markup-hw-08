@@ -16,13 +16,18 @@
  }
  
 .contact__item {
-
  @media screen and (max-width: 1199px) {
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 10px;
   }
-}  
+  } 
+
+.contact__item:last-child {
+  @media screen and (max-width: 1199px) {
+  margin-bottom: 0px;
+}
+}
 
 .contact__item:not(:last-child) {
   
