@@ -59,10 +59,13 @@ color: #757575;
     border-right: 1px solid rgba(33,33,33,.2);
     }
 
+    // &__link:last-child {
+    // padding-right: 0;
+    // border-right: none;
+    //     }
+    
 }
-  
  
-
 .menu-toggle {
         min-height: 40px;
         min-width: 40px;
@@ -85,6 +88,12 @@ color: #757575;
      .menu-toggle.js-close-menu:hover,
      .menu-toggle.js-close-menu:focus {
         color: var(--accent-text-color);
+     }
+
+     .js-close-menu {
+        position: absolute;
+        top: 10px;
+        right: 15px;
      }
         
       
