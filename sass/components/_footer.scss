@@ -23,6 +23,9 @@
     margin-right: 165px;
     margin-bottom: 60px;
   }    
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }    
 
  }
 
@@ -91,10 +94,11 @@
 
 .container-footer {
   display: flex;
-  align-items: center;
+ 
 
   @media screen and (min-width: 480px) and (max-width: 767px) {
   flex-direction: column;
+  align-items: center;
 }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
