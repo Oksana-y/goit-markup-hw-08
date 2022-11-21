@@ -263,7 +263,7 @@ p {
 .header__logo {
   padding: 25px 92px 25px 0;
 }
-@media screen and (min-width: 767px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .header__logo {
     padding: 26px 87px 26px 0;
   }
